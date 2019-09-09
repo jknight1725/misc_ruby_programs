@@ -1,3 +1,5 @@
+#After visiting a museum in prague I quickly scripted some data about andy warhol 
+
 def andy_warhol_timeline( year )
   case year
   when 1889
