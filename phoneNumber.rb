@@ -1,3 +1,5 @@
+# randomly generates a phone number
+# user can give their own area code, prefix, or line number and have the other numbers be generated. 
 def createNumber(args={})
   number = ""
   10.times do
