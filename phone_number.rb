@@ -1,6 +1,6 @@
 # randomly generates a phone number
 # user can give their own area code, prefix, or line number and have the other numbers be generated. 
-def createNumber(args={})
+def create_number(args={})
   number = ""
   10.times do
     number += rand(9).to_s
@@ -12,5 +12,5 @@ def createNumber(args={})
   return "#{area}-#{prefix}-#{line}"
 end
 
-puts createNumber(area: 303, prefix: 718)
-puts createNumber
+puts create_number(area: 303, prefix: 718)
+puts create_number
