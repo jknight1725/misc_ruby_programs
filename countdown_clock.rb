@@ -1,3 +1,6 @@
+#Scripted this in vim after being bored during an undergrad lecture
+#Tells you what percent complete you are with a time block givien custom parameters
+
 puts "Countdown Timer"
 puts "How many Hours:"
 hours = gets.to_i
