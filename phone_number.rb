@@ -7,7 +7,7 @@ def create_number(args={})
   end
   area   = args[:area]   || number[0..2]
   prefix = args[:prefix] || number[3..5]
-  line   = args[:line]   || number[6..10]
+  line   = args[:line]   || number[6..9]
 
   return "#{area}-#{prefix}-#{line}"
 end
